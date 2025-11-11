@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{6B575CBE-9CB9-4B73-BD25-79EED993501B}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ScriptPilot2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Runner\Runner.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ScriptPilot2">
+        <MSBuild Projects="ScriptPilot2.dproj"/>
+    </Target>
+    <Target Name="ScriptPilot2:Clean">
+        <MSBuild Projects="ScriptPilot2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ScriptPilot2:Make">
+        <MSBuild Projects="ScriptPilot2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Runner">
+        <MSBuild Projects="Runner\Runner.dproj"/>
+    </Target>
+    <Target Name="Runner:Clean">
+        <MSBuild Projects="Runner\Runner.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Runner:Make">
+        <MSBuild Projects="Runner\Runner.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ScriptPilot2;Runner"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ScriptPilot2:Clean;Runner:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ScriptPilot2:Make;Runner:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

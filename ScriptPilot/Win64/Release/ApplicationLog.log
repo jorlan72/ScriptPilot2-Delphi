@@ -1,0 +1,36 @@
+
+Welcome to ScriptPilot 2
+Build : 2.0.0.101
+
+Application startup time : 00:00:00.940
+
+29.02.2024 11:57:35 : Ready.
+
+29.02.2024 11:57:50 : Saving settings to registry
+
+Script folder                  : C:\Users\JørgenLanesskog\OneDrive - Lanesskog\RAD\ScriptPilot\ScriptPilot 2.0\Win64\Release\Scripts\
+Data folder                    : C:\Users\JørgenLanesskog\OneDrive - Lanesskog\RAD\ScriptPilot\ScriptPilot 2.0\Win64\Release\Data\
+Media folder                   : C:\Users\JørgenLanesskog\OneDrive - Lanesskog\RAD\ScriptPilot\ScriptPilot 2.0\Win64\Release\Media\
+Run User GUI in full screen    : True
+Menu activates on mouse hover  : True
+Save form position and state   : True
+Show floating hints            : True
+Leave script expanded          : True
+Save application log           : True
+Save output log                : True
+Debug mode                     : True
+Stop execution on warnings     : True
+Hide editor on script run      : True
+Hide runners on script run     : True
+Resolve hostnames in script    : True
+Pause script at end            : True
+Kill runners at script end     : True
+Maximum active runners         : 9
+Alphablend scriptpilot         : True
+Alphablend scriptpilot level   : 255
+Alphablend user gui            : True
+Alphablend user gui level      : 255
+Alphablend runner              : True
+Alphablend runner level        : 255
+
+29.02.2024 11:57:55 : Application shutdown

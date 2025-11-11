@@ -1,0 +1,2 @@
+ScriptPilot 2 Script file - CodeRed - Jorgen Lanesskog
+[{"caption":"0","subitem0":"SetTag","subitem1":"#MySpecialTag#","subitem2":"","subitem3":"","subitem4":"","subitem5":""},{"caption":"1","subitem0":"SetVariable","subitem1":"#MyGreatVariable#","subitem2":"10","subitem3":"","subitem4":"","subitem5":""},{"caption":"2","subitem0":"SetRunnerActive","subitem1":"MyBestRunner","subitem2":"False","subitem3":"False","subitem4":"","subitem5":""}]
